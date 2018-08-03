@@ -1,13 +1,13 @@
 /******************
-** FILE: GpioOutput.h
+** FILE: Gpio.h
 **
 ** DESCRIPTION:
-**  Gpio Output related functionality
+**  Gpio related functionality
 **
 ** CREATED: 8/3/2018, by Amit Chaudhary
 ******************/
-#ifndef GpioOutput_h
-#define GpioOutput_h
+#ifndef Gpio_h
+#define Gpio_h
 
 
 #include "stm8s.h"
@@ -27,13 +27,11 @@ typedef struct
   uint8_t               (*Off)                   (Port_t port, Pin_t pin);
   uint8_t               (*Toggle)                (Port_t port, Pin_t pin);
   uint8_t               (*ReadOutput)            (Port_t port, Pin_t pin);
+  uint8_t               (*ReadInput)             (Port_t port, Pin_t pin);
 
-}GpioOutput;
+}const Gpio;
 
-extern GpioOutput GpioOutputDriver;
-
-
-
+extern Gpio GpioDrv;
 
 
 
@@ -46,4 +44,7 @@ extern GpioOutput GpioOutputDriver;
 
 
 
-#endif //GpioOutput_h
+
+
+
+#endif //Gpio_h

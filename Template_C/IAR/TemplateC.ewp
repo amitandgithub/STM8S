@@ -1614,7 +1614,7 @@
     <group>
         <name>Drivers</name>
         <file>
-            <name>$PROJ_DIR$\..\Driver\src\GpioOutput.c</name>
+            <name>$PROJ_DIR$\..\Driver\src\Gpio.c</name>
         </file>
     </group>
     <group>
