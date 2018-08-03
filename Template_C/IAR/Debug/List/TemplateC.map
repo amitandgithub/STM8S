@@ -1,38 +1,58 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.10.1.201 for STM8                     03/Aug/2018  10:50:52
+# IAR ELF Linker V3.10.1.201 for STM8                     03/Aug/2018  19:27:14
 # Copyright 2010-2017 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Exe\TemplateC.out
+#        C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Exe\TemplateC.out
 #    Map file     =  
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\List\TemplateC.map
+#        C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\List\TemplateC.map
 #    Command line =  
-#        -f C:\Users\achaudha\AppData\Local\Temp\EW90C6.tmp
-#        (C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\Gpio.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\main.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_adc1.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_awu.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_beep.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_clk.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_exti.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_flash.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_gpio.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_i2c.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_itc.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_iwdg.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_rst.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_spi.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_tim1.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_tim2.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_tim4.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_uart1.o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj\stm8s_wwdg.o
+#        -f C:\Users\AMITCH~1\AppData\Local\Temp\EW32A2.tmp ("C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\Gpio.o" "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\main.o" "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_adc1.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_awu.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_beep.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_clk.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_exti.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_flash.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_gpio.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_i2c.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_itc.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_iwdg.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_rst.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_spi.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_tim1.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_tim2.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_tim4.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_uart1.o"
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_wwdg.o"
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Exe\TemplateC.out --map
-#        C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\List\TemplateC.map
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Exe\TemplateC.out" --map
+#        "C:\Amit
+#        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\List\TemplateC.map"
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
-#        8.0\stm8\config\lnkstm8s103f3.icf" --config_def _CSTACK_SIZE=0x100
+#        8.0_2\stm8\config\lnkstm8s103f3.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
 #
 ###############################################################################
@@ -119,7 +139,7 @@ do not initialize {
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj: [1]
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj: [1]
     Gpio.o                      38       14
     main.o                      60
     stm8s_gpio.o               162
@@ -212,7 +232,7 @@ exit                    0x0081ee   0x3  Code  Gb  exit.o [4]
 main                    0x00810e  0x3c  Code  Gb  main.o [1]
 
 
-[1] = C:\Amit_Chaudhary\STM8S\Template_C\IAR\Debug\Obj
+[1] = C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj
 [2] = command line
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a

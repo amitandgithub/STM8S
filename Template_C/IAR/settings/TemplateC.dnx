@@ -16,7 +16,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
-        <Checksum>1885451826</Checksum>
+        <Checksum>3475688556</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -28,6 +28,19 @@
     <CallStack>
         <ShowArgs>0</ShowArgs>
     </CallStack>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
     <InterruptLog>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
@@ -56,19 +69,20 @@
         <TypeViol>0</TypeViol>
         <Stop>1</Stop>
     </MemConfig>
-    <DriverProfiling>
-        <Enabled>0</Enabled>
-        <Mode>1</Mode>
-        <Graph>0</Graph>
-        <Symbiont>0</Symbiont>
-        <Exclusions />
-    </DriverProfiling>
-    <CallStackLog>
-        <Enabled>0</Enabled>
-    </CallStackLog>
-    <CallStackStripe>
-        <ShowTiming>1</ShowTiming>
-    </CallStackStripe>
+    <Simulator>
+        <Freq>16000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\App\main.c}.8.3" 1 0 0 0 "" 0 ""</Bp0>
+        <Count>1</Count>
+    </Breakpoints>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -82,9 +96,8 @@
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
-    <Simulator>
-        <Freq>16000000</Freq>
-        <FreqHi>0</FreqHi>
-        <MultiCoreRunAll>1</MultiCoreRunAll>
-    </Simulator>
+    <DebuggerSettings>
+        <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
+    </DebuggerSettings>
 </settings>

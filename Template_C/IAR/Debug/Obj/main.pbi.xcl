@@ -1,22 +1,22 @@
-"C:\Amit_Chaudhary\STM8S\Template_C\IAR\main.c"
+"C:\Amit Caudhary\STM8\Code\STM8S\Template_C\App\main.c"
 -std=c99
 -ferror-limit=0
 -I
-C:\Amit_Chaudhary\STM8S\Template_C\IAR\..\System\inc
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\..\System\inc
 -I
-C:\Amit_Chaudhary\STM8S\Template_C\IAR\..\STM8S_StdPeriph_Driver\inc
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\..\STM8S_StdPeriph_Driver\inc
 -I
-C:\Amit_Chaudhary\STM8S\Template_C\IAR\..\Driver\inc
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\..\Driver\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\stm8\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\stm8\inc\c
 -I
-C:\Amit_Chaudhary\STM8S\Template_C\System\inc
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\System\inc
 -I
-C:\Amit_Chaudhary\STM8S\Template_C\STM8S_StdPeriph_Driver\inc
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\STM8S_StdPeriph_Driver\inc
 -I
-C:\Amit_Chaudhary\STM8S\Template_C\Driver\inc
+C:\Amit Caudhary\STM8\Code\STM8S\Template_C\Driver\inc
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -262,8 +262,8 @@ C:\Amit_Chaudhary\STM8S\Template_C\Driver\inc
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
 -DSTM8S103=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\LIB\dlstm8smn.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0\\stm8\\LIB\\dlstm8smn.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\stm8\LIB\dlstm8smn.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.0_2\\stm8\\LIB\\dlstm8smn.h"
 -D__VERSION__="IAR C/C++ Compiler V3.10.1.201 for STM8"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )

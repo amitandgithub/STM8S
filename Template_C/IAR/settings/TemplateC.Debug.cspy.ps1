@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Amit_Chaudhary\STM8S\Template_C\IAR\settings\TemplateC.Debug.general.xcl" --backend -f "C:\Amit_Chaudhary\STM8S\Template_C\IAR\settings\TemplateC.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\settings\TemplateC.Debug.general.xcl" --backend -f "C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\settings\TemplateC.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Amit_Chaudhary\STM8S\Template_C\IAR\settings\TemplateC.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Amit_Chaudhary\STM8S\Template_C\IAR\settings\TemplateC.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\common\bin\cspybat" -f "C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\settings\TemplateC.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\settings\TemplateC.Debug.driver.xcl" 
 }
