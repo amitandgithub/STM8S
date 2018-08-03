@@ -103,6 +103,7 @@
             <file>$PROJ_DIR$\Debug\Obj\GpioOutput.o</file>
             <file>$PROJ_DIR$\..\..\..\..\Users\achaudha\AppData\Roaming\IAR Embedded Workbench\CodeTemplates.ENU.txt</file>
             <file>$PROJ_DIR$\..\STM8S_StdPeriph_Driver\inc\stm8s_uart1.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GpioOutput.__cstat.et</file>
             <file>$PROJ_DIR$\..\STM8S_StdPeriph_Driver\src\GpioOutput.c</file>
             <file>$PROJ_DIR$\Debug\Obj\GpioOutput.pbi</file>
             <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
@@ -119,7 +120,11 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 99</file>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 98</file>
                 </tool>
             </outputs>
             <inputs>
@@ -165,13 +170,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 103</file>
+                    <file> 104</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 101 95 23 60 59 58 57 54 55 56 28 40 30 32 29 53 41 27 47 44 100 102</file>
+                    <file> 102 95 23 60 59 58 57 54 55 56 28 40 30 32 29 53 41 27 47 44 101 103</file>
                 </tool>
             </inputs>
         </file>
@@ -180,7 +185,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 21 103</file>
+                    <file> 21 104</file>
                 </tool>
             </outputs>
         </file>
