@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.10.1.201 for STM8                     03/Aug/2018  19:27:14
+# IAR ELF Linker V3.10.1.201 for STM8                     03/Aug/2018  19:39:37
 # Copyright 2010-2017 IAR Systems AB.
 #
 #    Output file  =  
@@ -10,7 +10,7 @@
 #        C:\Amit
 #        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\List\TemplateC.map
 #    Command line =  
-#        -f C:\Users\AMITCH~1\AppData\Local\Temp\EW32A2.tmp ("C:\Amit
+#        -f C:\Users\AMITCH~1\AppData\Local\Temp\EW8F59.tmp ("C:\Amit
 #        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\Gpio.o" "C:\Amit
 #        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\main.o" "C:\Amit
 #        Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj\stm8s_adc1.o"
@@ -109,27 +109,27 @@ do not initialize {
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3-P5":                              0x177
+"P3-P5":                              0x17c
   .near_func.text  ro code  0x008080   0x8e  stm8s_gpio.o [1]
-  .near_func.text  ro code  0x00810e   0x3c  main.o [1]
-  .near_func.text  ro code  0x00814a   0x18  vreg_util.o [4]
-  .near_func.text  ro code  0x008162   0x14  stm8s_gpio.o [1]
-  .near_func.text  ro code  0x008176   0x14  init.o [4]
-  .near_func.text  ro code  0x00818a   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x00819e   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x0081b1    0xf  Gpio.o [1]
-  .near.rodata     const    0x0081c0    0xe  Gpio.o [1]
-  .near_func.text  ro code  0x0081ce    0x8  Gpio.o [1]
-  .near_func.text  ro code  0x0081d6    0x8  Gpio.o [1]
-  .near_func.text  ro code  0x0081de    0x5  Gpio.o [1]
-  .near_func.text  ro code  0x0081e3    0x5  cexit.o [4]
-  .near_func.text  ro code  0x0081e8    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x0081eb    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x0081ee    0x3  exit.o [4]
-  .near_func.text  ro code  0x0081f1    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x0081f4    0x2  Gpio.o [1]
-  .near_func.text  ro code  0x0081f6    0x1  __dbg_break.o [3]
-                          - 0x0081f7  0x177
+  .near_func.text  ro code  0x00810e   0x41  main.o [1]
+  .near_func.text  ro code  0x00814f   0x18  vreg_util.o [4]
+  .near_func.text  ro code  0x008167   0x14  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x00817b   0x14  init.o [4]
+  .near_func.text  ro code  0x00818f   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x0081a3   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x0081b6    0xf  Gpio.o [1]
+  .near.rodata     const    0x0081c5    0xe  Gpio.o [1]
+  .near_func.text  ro code  0x0081d3    0x8  Gpio.o [1]
+  .near_func.text  ro code  0x0081db    0x8  Gpio.o [1]
+  .near_func.text  ro code  0x0081e3    0x5  Gpio.o [1]
+  .near_func.text  ro code  0x0081e8    0x5  cexit.o [4]
+  .near_func.text  ro code  0x0081ed    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x0081f0    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x0081f3    0x3  exit.o [4]
+  .near_func.text  ro code  0x0081f6    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x0081f9    0x2  Gpio.o [1]
+  .near_func.text  ro code  0x0081fb    0x1  __dbg_break.o [3]
+                          - 0x0081fc  0x17c
 
 
 
@@ -141,10 +141,10 @@ do not initialize {
     ------                 -------  -------  -------
 C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj: [1]
     Gpio.o                      38       14
-    main.o                      60
+    main.o                      65
     stm8s_gpio.o               162
     ------------------------------------------------
-    Total:                     260       14
+    Total:                     265       14
 
 command line: [2]
     ------------------------------------------------
@@ -171,7 +171,7 @@ dlstm8smn.a: [4]
 
     Linker created                               256
 ----------------------------------------------------
-    Grand Total:               361      142      268
+    Grand Total:               366      142      268
 
 
 *******************************************************************************
@@ -198,7 +198,7 @@ Entry                    Address  Size  Type      Object
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?push_w4                0x00814a        Code  Gb  vreg_util.o [4]
+?push_w4                0x00814f        Code  Gb  vreg_util.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
@@ -207,29 +207,29 @@ Entry                    Address  Size  Type      Object
 ?w5                     0x00000a        Data  Gb  vregs.o [4]
 CSTACK$$Base            0x000300         --   Gb  - Linker created -
 CSTACK$$Limit           0x000400         --   Gb  - Linker created -
-GPIO_DeInit             0x008162  0x14  Code  Gb  stm8s_gpio.o [1]
+GPIO_DeInit             0x008167  0x14  Code  Gb  stm8s_gpio.o [1]
 GPIO_Init               0x008080  0x8e  Code  Gb  stm8s_gpio.o [1]
-GpioDrv                 0x0081c0   0xe  Data  Gb  Gpio.o [1]
-Gpio_Off                0x0081de   0x5  Code  Gb  Gpio.o [1]
-Gpio_On                 0x0081ce   0x8  Code  Gb  Gpio.o [1]
-Gpio_ReadInput          0x0081b1   0xf  Code  Gb  Gpio.o [1]
-Gpio_ReadOutput         0x0081f4   0x2  Code  Gb  Gpio.o [1]
-Gpio_Toggle             0x0081d6   0x8  Code  Gb  Gpio.o [1]
+GpioDrv                 0x0081c5   0xe  Data  Gb  Gpio.o [1]
+Gpio_Off                0x0081e3   0x5  Code  Gb  Gpio.o [1]
+Gpio_On                 0x0081d3   0x8  Code  Gb  Gpio.o [1]
+Gpio_ReadInput          0x0081b6   0xf  Code  Gb  Gpio.o [1]
+Gpio_ReadOutput         0x0081f9   0x2  Code  Gb  Gpio.o [1]
+Gpio_Toggle             0x0081db   0x8  Code  Gb  Gpio.o [1]
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
 Region$$Table$$Base   0x00000000         --   Gb  - Linker created -
 Region$$Table$$Limit  0x00000000         --   Gb  - Linker created -
-__DebugBreak            0x0081f6   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x00818a  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x008176  0x14  Code  Gb  init.o [4]
-__iar_program_start     0x00819e        Code  Gb  cstartup.o [4]
+__DebugBreak            0x0081fb   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x00818f  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x00817b  0x14  Code  Gb  init.o [4]
+__iar_program_start     0x0081a3        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x0081f1        Code  Gb  unhandled_exception.o [4]
+                        0x0081f6        Code  Gb  unhandled_exception.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x0081eb   0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x0081e3        Code  Gb  cexit.o [4]
-exit                    0x0081ee   0x3  Code  Gb  exit.o [4]
-main                    0x00810e  0x3c  Code  Gb  main.o [1]
+__low_level_init        0x0081f0   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0081e8        Code  Gb  cexit.o [4]
+exit                    0x0081f3   0x3  Code  Gb  exit.o [4]
+main                    0x00810e  0x41  Code  Gb  main.o [1]
 
 
 [1] = C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Obj
@@ -237,7 +237,7 @@ main                    0x00810e  0x3c  Code  Gb  main.o [1]
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  361 bytes of readonly  code memory
+  366 bytes of readonly  code memory
   142 bytes of readonly  data memory
   268 bytes of readwrite data memory
 

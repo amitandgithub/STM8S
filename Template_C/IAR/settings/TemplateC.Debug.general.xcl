@@ -1,10 +1,10 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\stm8\bin\stm8proc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\bin\stm8proc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\stm8\bin\stm8stlink.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\bin\stm8stlink.dll" 
 
 "C:\Amit Caudhary\STM8\Code\STM8S\Template_C\IAR\Debug\Exe\TemplateC.out" 
 
---plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0_2\stm8\bin\stm8bat.dll" 
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\stm8\bin\stm8bat.dll" 
 
 
 

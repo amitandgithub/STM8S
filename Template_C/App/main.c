@@ -4,12 +4,13 @@
 #include "Gpio.h"
 int main( void )
 {
+  uint16_t i =0;
   GpioDrv.Initialize(GPIOB,GPIO_PIN_5,GPIO_MODE_OUT_PP_LOW_FAST);
-  GpioDrv.On(GPIOB,GPIO_PIN_5);
-  GpioDrv.Off(GPIOB,GPIO_PIN_5);
+  while(1)
+  {
+  for(i = 0; i<0xffff;i++);
   GpioDrv.Toggle(GPIOB,GPIO_PIN_5);
-  GpioDrv.ReadOutput(GPIOB,GPIO_PIN_5);
-  GpioDrv.ReadInput(GPIOB,GPIO_PIN_5);
+  for(i = 0; i<0xffff;i++);
+  }
 
-  return 0;
 }
